@@ -1,0 +1,45 @@
+
+.wrapper
+{
+    box-shadow: 0 0 4px 0 #919191;
+    margin-top: 15px;
+}
+.expenseWrap
+{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    box-sizing: border-box;
+    padding:15px 0;
+    border-radius: 3px;
+    font-weight: bold;
+    p{
+        margin: 0;
+    }
+    div{
+        font-size: 1.2rem;
+    }
+}
+.ex1{
+    >*{
+        text-align: center;
+        width: 100%;
+        border-right: 3px solid rgb(239, 239, 239);
+    }
+    div{
+        color:#54d354;
+    }
+}
+.ex2{
+    >*{
+        text-align: center;
+        width: 100%;
+        border-left: 3px solid rgb(239, 239, 239);
+    }
+    div{
+        color:#fb5b53;
+    }
+}
